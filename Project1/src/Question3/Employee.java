@@ -4,9 +4,10 @@ public class Employee
 {
     private static int Employee_number;
 
-    public static int printNumber()
+    public static int printNumber(int num)
     {
-        return Employee_number;
+        int c=num+Employee_number;
+        return c;
     }
     static
     {
@@ -14,6 +15,6 @@ public class Employee
     }
     public static void main( String[] args)
     {
-        System.out.println("The Question3.Employee number using static block is: "  +Employee.printNumber());
+        System.out.println("The Question3.Employee number using static block is: "  +Employee.printNumber(5));
     }
 }
