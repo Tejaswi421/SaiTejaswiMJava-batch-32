@@ -1,4 +1,4 @@
-package Day5.Question3;
+package Day4n5.Question3;
 
 public class Employee
 {
@@ -15,6 +15,6 @@ public class Employee
     }
     public static void main( String[] args)
     {
-        System.out.println("The Day5.Question1.Question3.Employee number using static block is: "  +Employee.printNumber(5));
+        System.out.println("The Day4n5.Question1.Question3.Employee number using static block is: "  +Employee.printNumber(5));
     }
 }

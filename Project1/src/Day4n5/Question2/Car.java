@@ -1,4 +1,4 @@
-package Day5.Question2;
+package Day4n5.Question2;
 
 // Sub class extending class
 class Car extends Vehicle {
@@ -16,9 +16,9 @@ class Car extends Vehicle {
      public static void main(String[] args)
      {
          Car c = new Car();
-         System.out.println("Speed of Day5.Question1.Question2.Car: "+ c.speed + " Milage of Day5.Question1.Question2.Car: "+c.milage);
+         System.out.println("Speed of Day4n5.Question1.Question2.Car: "+ c.speed + " Milage of Day4n5.Question1.Question2.Car: "+c.milage);
          Car c1 = new Car(50);
-         System.out.println("Speed of Day5.Question1.Question2.Car is: "+c1.speed);
+         System.out.println("Speed of Day4n5.Question1.Question2.Car is: "+c1.speed);
 
      }
  }
