@@ -1,3 +1,5 @@
+package Day3;
+
 class Animal{
     void bark()
     {
@@ -7,7 +9,7 @@ class Animal{
 class  Dog extends Animal{
     void bark()
     {
-        System.out.println("Dog barks Bow Bow");
+        System.out.println("Day3.Dog barks Bow Bow");
     }
 
     public static void main(String args[]){

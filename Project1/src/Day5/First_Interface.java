@@ -1,4 +1,4 @@
-package Question1;
+package Day5;
 
 interface First_Interface
 {

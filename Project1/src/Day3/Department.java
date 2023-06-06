@@ -1,3 +1,4 @@
+package Day3;
 
 abstract class Department {
 

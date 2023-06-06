@@ -1,4 +1,4 @@
-package Question1;
+package Day5;
 
 public class Traingle implements First_Interface, Second_Interface {
     public double Area(int b, int h) {

@@ -1,4 +1,4 @@
-package Question4;
+package Day5.Question4;
 
 final class Calculator {
     protected final int number1=10;

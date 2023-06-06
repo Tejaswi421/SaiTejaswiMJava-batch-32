@@ -1,3 +1,5 @@
+package Day2;
+
 public class Person {
     int height;
     int weight;
@@ -8,6 +10,6 @@ public class Person {
     }
     public void walk()
     {
-        System.out.println("Person is walking");
+        System.out.println("Day2.Person is walking");
     }
 }

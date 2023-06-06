@@ -4,7 +4,7 @@ public class Reversal
 {
     public static void main(String[] args)
     {
-        int number=12345;
+        int number=100;
         int rev=0;
         while(number!=0)
         {
