@@ -8,9 +8,8 @@ public class Read
     {
         Scanner sc = new Scanner(new File("C:\\Users\\Sai Tejaswi\\Documents\\names.csv"));
         //String[] elements=.split();
-       // sc.useDelimiter(" , ");
-        //while (sc.hasNext())
-        for'9'i=0;i<
+       sc.useDelimiter(" , ");
+        while (sc.hasNext())
         {
             System.out.print(sc.next());
            // List <String> myList = Arrays.asList(myArray);
