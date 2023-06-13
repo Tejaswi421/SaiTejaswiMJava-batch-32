@@ -2,22 +2,21 @@ package Day9;
 import java.util.*;
 
 public class String2Int {
-    public static int stringtoint(String s2) {
-        int number = Integer.parseInt(s2);
-        System.out.println(number);
-        return number;
+    public static void stringtoint(String s2) {
+        try {
+            int number = Integer.parseInt(s2);
+            System.out.println(number);
+        } catch (NumberFormatException e) {
+            System.out.println("Given String cannot be converted into Integer");
+        }
     }
-
-    public static void main(String[] args) {
-        try
+        public static void main(String[] args)
         {
-            stringtoint("123");
+
+            stringtoint("23");
+            stringtoint("45.67");
             stringtoint("test");
-        }
-        catch (NumberFormatException e)
-        {
-           System.out.println("Given String cannot be converted into Integer");
-        }
+            stringtoint("21f");
 
+        }
     }
-}
