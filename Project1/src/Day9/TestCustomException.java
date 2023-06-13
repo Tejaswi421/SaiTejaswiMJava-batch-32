@@ -1,7 +1,7 @@
 package Day9;
 
 
-    class InvalidAgeException  extends Exception
+    class InvalidAgeException  extends RuntimeException
     {
         public InvalidAgeException (String str)
         {
