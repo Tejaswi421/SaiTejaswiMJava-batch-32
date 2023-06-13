@@ -19,8 +19,8 @@ public class Reverse {
              n = name2.charAt(j);
              result = n+result;
          }
-         System.out.print(result+" ");
-         result="";
+         System.out.print(result+"");
+         result=" ";
        }
     }
 }
