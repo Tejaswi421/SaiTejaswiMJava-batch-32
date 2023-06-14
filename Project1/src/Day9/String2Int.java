@@ -7,7 +7,8 @@ public class String2Int {
             int number = Integer.parseInt(s2);
             System.out.println(number);
         } catch (NumberFormatException e) {
-            System.out.println("Given String cannot be converted into Integer");
+            //System.out.println("Given String cannot be converted into Integer");
+            e.printStackTrace();
         }
     }
         public static void main(String[] args)
@@ -15,8 +16,8 @@ public class String2Int {
 
             stringtoint("23");
             stringtoint("45.67");
-            stringtoint("test");
-            stringtoint("21f");
+            //stringtoint("test");
+            //stringtoint("21f");
 
         }
     }
