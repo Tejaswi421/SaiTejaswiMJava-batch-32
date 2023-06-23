@@ -6,7 +6,7 @@ public class removeDuplicates
 {
     public static void main(String[] args)
     {
-        String name="Occupation";
+        String name="occupation";
         HashSet<Character> set = name.chars().mapToObj(e->(char) e).collect(Collectors.toCollection(HashSet::new));
         System.out.println(set);
     }
