@@ -1,4 +1,4 @@
-package main.java.AbstractionandPolymorphism;
+package AbstractionandPolymorphism;
 
 abstract class  Department {
 

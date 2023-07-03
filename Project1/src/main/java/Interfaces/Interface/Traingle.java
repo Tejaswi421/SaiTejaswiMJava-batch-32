@@ -1,4 +1,4 @@
-package main.java.Interfaces.Interface;
+package Interfaces.Interface;
 
 public class Traingle implements First_Interface, Second_Interface {
     public double Area(int b, int h) {

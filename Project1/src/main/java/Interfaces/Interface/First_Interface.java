@@ -1,4 +1,4 @@
-package main.java.Interfaces.Interface;
+package Interfaces.Interface;
 
 interface First_Interface
 {
