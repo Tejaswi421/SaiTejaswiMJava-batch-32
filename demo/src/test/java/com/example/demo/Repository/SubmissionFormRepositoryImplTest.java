@@ -46,7 +46,7 @@ public class SubmissionFormRepositoryImplTest {
     public void testAddSubmission(){
 
 
-       SubmissionForm data = getSubmissionForm("1234","tejaswi","07/10/2023","Kranthi",75,"Java","xyz","neha");
+       SubmissionForm data = getSubmissionForm("1234","teja","07/10/2023","Kranthi",75,"Java","xyz","neha");
         SubmissionForm result=repo.addSubmission(data);
         Assertions.assertNotNull(result);
         Assertions.assertNotEquals(dto.getId(),result.getId());

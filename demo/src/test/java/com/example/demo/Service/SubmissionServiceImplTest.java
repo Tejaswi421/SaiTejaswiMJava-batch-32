@@ -1,5 +1,4 @@
 package com.example.demo.Service;
-
 import com.example.demo.Model.SubmissionForm;
 import com.example.demo.Repository.SubmissionFormRepositoryImpl;
 import org.junit.jupiter.api.Assertions;
@@ -50,7 +49,7 @@ public class SubmissionServiceImplTest {
     public void testGetSubmission(){
 
 
-        SubmissionForm mockSubmission =getSubmissionForm("123","tejaswi","07/10/2023","kranthi",75,"Java","xyz","neha");
+        SubmissionForm mockSubmission =getSubmissionForm("123","teja","07/10/2023","kranthi",75,"Java","xyz","neha");
 
         when(repo.getSubmission("123")).thenReturn(mockSubmission);
 
@@ -62,7 +61,7 @@ public class SubmissionServiceImplTest {
 
     @Test
     public void testAddSubmission(){
-        SubmissionForm mockSubmission = getSubmissionForm("123","tejaswi","07/10/2023","kranthi",75,"Java","xyz","neha");
+        SubmissionForm mockSubmission = getSubmissionForm("123","teja","07/10/2023","kranthi",75,"Java","xyz","neha");
 
         when(repo.addSubmission(mockSubmission)).thenReturn(mockSubmission);
 
@@ -74,18 +73,18 @@ public class SubmissionServiceImplTest {
 
     @Test
     public void testDelSubmission(){
-        SubmissionForm mockSubmission = getSubmissionForm("123","tejaswi","07/10/2023","kranthi",75,"Java","xyz","neha");
+        SubmissionForm mockSubmission = getSubmissionForm("123","teja","07/10/2023","kranthi",75,"Java","xyz","neha");
 
-        when(repo.deleteSubmission("tejaswi")).thenReturn(true);
+        when(repo.deleteSubmission("teja")).thenReturn(true);
 
-        boolean result = submissionService.deleteSubmission("tejaswi");
+        boolean result = submissionService.deleteSubmission("teja");
 
         Assertions.assertTrue(result);
     }
 
     @Test
     public void testUpdateSubmission(){
-        SubmissionForm mockSubmission = getSubmissionForm("123","tejaswi","07/10/2023","kranthi",75,"Java","xyz","neha");
+        SubmissionForm mockSubmission = getSubmissionForm("123","teja","07/10/2023","kranthi",75,"Java","xyz","neha");
 
         when(repo.updateSubmission(mockSubmission)).thenReturn(mockSubmission);
 
