@@ -1,18 +1,19 @@
-package com.example.demo.service;
+package com.example.demo.Service;
 
-import com.example.demo.model.SubmissionDTO;
+import com.example.demo.Model.SubmissionForm;
+import com.example.demo.Model.SubmissionForm;
 
 import java.util.List;
 
 public interface SubmissionService {
-    SubmissionDTO getSubmission(String id);
 
-    SubmissionDTO addSubmission(SubmissionDTO submission);
+    SubmissionForm getSubmission(String id);
 
-    SubmissionDTO updateSubmission(SubmissionDTO submission);
+    SubmissionForm addSubmission(SubmissionForm submission);
 
-    SubmissionDTO deleteSubmission(String id);
+    SubmissionForm updateSubmission(SubmissionForm submission);
 
-    List<SubmissionDTO> getAll();
+    boolean deleteSubmission(String id);
 
+    List<SubmissionForm> getAll();
 }
