@@ -22,7 +22,7 @@ public class SubmissionFormRepositoryImplTest {
     @BeforeEach
     public void setup(){
         repo= new SubmissionFormRepositoryImpl();
-         dto = getSubmissionForm("123","tejaswi","07/10/2023","kranthi",75,"Java","xyz","neha");
+         dto = getSubmissionForm("123","teja","07/10/2023","kranthi",75,"Java","xyz","neha");
         repo.s = new HashMap<String,SubmissionForm>() ;
         repo. s.put(dto.getId(),dto);
     }
